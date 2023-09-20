@@ -21,3 +21,25 @@ def get_random_ingredients(kind=None):
     :rtype: list[str]
     """
     return ["shells", "gorgonzola", "parsley"]
+
+
+def another_function(a: int, b: int, c: str) -> dict[str: tuple[int, int]]:
+    """
+    Return a dictionary.
+
+    Parameters
+    ----------
+
+    a: int
+        the number a
+    b: int
+        the number b
+    c: str
+        the key c
+
+    Returns
+    -------
+    dict
+        Description
+    """
+    return {c: (a, b)}
